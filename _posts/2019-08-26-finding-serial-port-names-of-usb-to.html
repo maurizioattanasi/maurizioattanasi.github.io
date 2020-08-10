@@ -1,0 +1,17 @@
+---
+layout: post
+title: Finding serial       port names of usb to serial converters on window machines
+date: '2019-08-26T10:23:00.000+02:00'
+author: Maurizio Attanasi
+tags:
+- Programmazione
+- Serial Ports
+- Internet Of Things
+- Win32
+- Microcontrollori
+modified_time: '2019-08-26T10:23:17.203+02:00'
+blogger_id: tag:blogger.com,1999:blog-2699321970282050013.post-8217743161785851860
+blogger_orig_url: https://maurizioattanasi.blogspot.com/2019/08/finding-serial-port-names-of-usb-to.html
+---
+
+<br /><div style="text-align: justify;">As usual, this is a <b>#noteformyself</b> article on how to find serial port names of USB to serial converters on Windows® machines.</div><br /><div style="text-align: justify;">On Windows® operating systems, the main source of information of currently opened COM ports, and of COM port to which a certain USB converter has been attached to, is the <strong>Registry</strong>, and, more precisely, the following <strong>KEYS/KEY GROUP</strong> under the HKLM (HKEY_LOCAL_MACHINE) group:</div><ul><li>SYSTEM\CurrentControlSet\Enum\USB;</li><li>HARDWARE\DEVICEMAP\SERIALCOMM;</li></ul><br /><div style="text-align: justify;">Typical use is when software has to read some data from a USB device emulating a COM port (e.g. an Arduino® sending temperature and humidity read from a <strong>DHT11</strong> sensor). Changing the USB port</div><div style="text-align: justify;">will typically result in a COM port number change.&nbsp;</div><br /><br /><div style="text-align: justify;">There are many ways to avoid the necessity to change it in a configuration file, or even worst, recompiling the software, and many articles, blog posts suggesting good solutions for different programming languages.</div><br /><div style="text-align: justify;">I'll begin with three of the programming languages I daily use, <strong>C++</strong> and&nbsp;<strong>C#</strong>, then a project for&nbsp; TypeScript/JavaScript will follow.</div><h3>C++ Demo</h3><a href="https://github.com/alien70/SerialPortFinder/tree/master/COMPortSelection">SerialPortFinder</a> is the C++ project<br /><h3>C# Demo</h3><a href="https://github.com/alien70/SerialPortFinder/tree/master/USBInfo">USBInfo</a> is a .NET/C# project.<br /><br />All the code can be found on my Github repo at the following <a href="https://github.com/alien70/SerialPortFinder">link</a>.<br /><br />Enjoy<br /><br />

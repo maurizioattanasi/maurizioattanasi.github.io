@@ -1,0 +1,15 @@
+---
+layout: post
+title: MySQL case sensitiveness on Windows Platform
+date: '2012-04-26T17:48:00.000+02:00'
+author: Maurizio Attanasi
+tags:
+- Database
+- Programmazione
+- Sistemi operativi
+modified_time: '2012-04-27T00:09:11.669+02:00'
+blogger_id: tag:blogger.com,1999:blog-2699321970282050013.post-3595929388496946101
+blogger_orig_url: https://maurizioattanasi.blogspot.com/2012/04/mysql-case-sensitiveness-on-windows.html
+---
+
+<div style="text-align: center; clear: both" class="separator"><a style="margin-bottom: 1em; float: left; clear: left; margin-right: 1em" href="http://dev.mysql.com/common/logos/logo-mysql-110x57.png" imageanchor="1"><img style="display: inline; float: left" align="left" src="http://dev.mysql.com/common/logos/logo-mysql-110x57.png"></a></div> <div style="text-align: justify">Come si evince dal titolo, il problema è il seguente: Se creo un database o una tabella su un RDBMS MySQL installato su sistemi windows, i relativi nomi sono sempre minuscoli (<i>lowercase</i>). La ragione di tale comportamento sta nel fatto che il filesystem del sistema operativo di Microsoft è <i>case insensitive</i>, ovvero il nome di files e/o cartelle viene sempre considerato minuscolo. Di norma questo non è un problema, tranne che in queste due situazioni (almeno quelle di cui sono a conoscenza):</div> <div style="text-align: justify"></div> <ul> <li>Voglio fare il <i>deploy</i> del mio database da un server Windows ad uno Linux. Poichè il filesystem quest'ultimo è <i>case sensitive</i>, tutte le queries, procedure e funzioni scritte per la piattaforma Microsoft, con buona probabilità smetteranno di funzionare sul nuovo server; <li>Voglio fare il porting del mio database verso un RDBMS <i>case sensitive</i> come, ad esempio, SQL Server. Stesso problema.</li></ul> <div>La causa del problema, sta nella configurazione iniziale di MySQL, ed in particolare nella chiave del file di configurazione <i>lower_case_table_names</i> che, per default ha valore 0 (zero, nomi di database e tabelle sono salvati su disco in modo case sensitive) su piattaforme Linux e valore 1 (in nomi di database e tabelle sono salvati sempre in minuscolo) su quelle Windows o Mac OSX. Esiste una terza alternativa che prevede il valore <b>2</b> per tale parametro, valore per il quale i nomi di database e tabelle vengono salvati su disco così come sono stati scritti nelle queries di creazione, ma nelle operazioni di confronto, MySQL li tratta tutti come se fossero scritti in minuscolo.&nbsp; Una trattazione più scientifica è data dalla documentazione ufficiale di MySQL che può essere ragguinta da <a href="http://dev.mysql.com/doc/refman/4.1/en/identifier-case-sensitivity.html">qui</a>.</div> <div>Come modificare il parametro in questione? Semplice.</div> <ol> <li>Modificare o aggiungere al file di configurazione di MySQL, my.ini, il valore <font color="#ffc000">lower_case_table_names = 2</font>;</li> <li>Riavviare il servizio di MySQL;</li></ol> <p>Enjoy </p>  

@@ -1,0 +1,21 @@
+---
+layout: post
+title: Internet of Things & M.E.A.N Stack - (Part II)
+date: '2016-09-16T13:48:00.001+02:00'
+author: Maurizio Attanasi
+tags:
+- Database
+- MongoDB
+- mqtt
+- Domotics
+- Internet Of Things
+- node.js
+- Industrial Internet Of Things
+- Industry 4.0
+- Microcontrollori
+modified_time: '2016-10-09T21:31:19.183+02:00'
+blogger_id: tag:blogger.com,1999:blog-2699321970282050013.post-1550811426290045115
+blogger_orig_url: https://maurizioattanasi.blogspot.com/2016/09/internet-of-things-mean-stack-part-ii.html
+---
+
+Continuiamo il discorso iniziato con la nota precedente, <a href="https://maurizioattanasi.blogspot.it/2016/09/internet-of-things-mean-stack.html">Internet of Things &amp; M.E.A.N Stack</a>, nel quale abbiamo esplorato alcune opzioni per implementare un web server che fornisse il nostro sistema delle funzionalità <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">C.R.U.D</a> necessarie per interfacciarci al database <em>NoSQL</em> mongoDB. <br />Lo step successivo è quello di utilizzare il framework M.E.A.N. per creare una <em>Single Page Application</em> che ci consenta di visualizzare i dati storici e <em>real-time</em> prodotti dal nostro sistema <strong>IoT</strong>.  <br />Per i dettagli relativi all’implementazione, rimandiamo al <a href="https://github.com/alien70/InternetOfThings/tree/master/mean/client">repository</a> GitHub, nel quale sono disponibili sia i sorgenti che la descrizione degli strumenti utilizzati e dei passi seguiti. <br />La web app realizzata si compone di una home page che si presenta come: <br /><img alt="home-page" src="https://drive.google.com/uc?id=0BzugrVNPI3_rOWl5RkR4NzFiNUk" width="100%" /> <br />La seconda pagina, dedicata alla visualizzazione dei dati storici salvati dal client mqtt realizzato in precedenza mediante il servizio REST, ha una visualizzazione tabellare dei dati <br /><img alt="home-page" src="https://drive.google.com/uc?id=0BzugrVNPI3_rVWN5SFFDS25GZ0U" width="100%" /> <br />ed una grafica <br /><img alt="home-page" src="https://drive.google.com/uc?id=0BzugrVNPI3_rM2YwaEFFanc5bVU" width="100%" /> <br />Infine, <em>last but not least</em>, abbiamo una vista nella quale i dati provenienti dal campo, vengono visualizzati in <em>tempo reale</em>. <br /><img alt="home-page" src="https://drive.google.com/uc?id=0BzugrVNPI3_razRvYjkyREl6NkU" width="100%" /> <br />Il prossimo obiettivo, è quello di realizzare un caso non simulato di dispositivo <strong>IoT</strong>. A tal fine proveremo ad utilizzare l’implementazione <em>Embedded C++</em> del progetto <a href="https://eclipse.org/paho/">paho</a>, <br /><img align="middle" alt="home-page" src="https://drive.google.com/uc?id=0BzugrVNPI3_rckNBUzNfeXhSRHc" width="25%"/><br />in abbinamento ad un controller <a href="https://www.arduino.cc/en/Main/ArduinoBoardDue">Arduino Due</a>.<br /><img align="middle" alt="home-page" src="https://drive.google.com/uc?id=0BzugrVNPI3_rcjZFcXNaVkV6U0U" width="50%" /><br /><br />Have Fun<br /><br /><!-- Place this tag in your head or just before your close body tag. --><br /><script async="" defer="" src="https://apis.google.com/js/platform.js"></script><br /><br /><!-- Place this tag where you want the +1 button to render. --><br /><div class="g-plusone" data-annotation="inline" data-width="300"></div>

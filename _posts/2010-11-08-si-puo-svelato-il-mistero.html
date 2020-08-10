@@ -1,0 +1,13 @@
+---
+layout: post
+title: "...SI PUO' (Svelato il mistero)"
+date: '2010-11-08T22:57:00.001+01:00'
+author: Maurizio Attanasi
+tags:
+- Sistemi di visione
+modified_time: '2011-01-10T20:54:23.959+01:00'
+blogger_id: tag:blogger.com,1999:blog-2699321970282050013.post-6429599312548707489
+blogger_orig_url: https://maurizioattanasi.blogspot.com/2010/11/si-puo-svelato-il-mistero.html
+---
+
+<div style="text-align: justify;">Periodo pieno di lavoro e poche novità. Ad ogni modo, ogni promessa è debito. Nel post precedente lamentavo l'assenza di funzioni per la preelaborazione delle immagini in uno scatolotto che ho utilizzato in un'applicazione per la verifica di una serigrafia in un device farmaceutico (in inglese fà più figo ;-)). Non è del tutto vero, infatti sebbene non vi sia un qualcosa, una funzione che elabori l'immagine acquisita per poi farne quel che meglio si crede, esiste, in alcune funzioni, la possibilità di applicare fino a tre filtri in cascata.&nbsp;</div><div style="text-align: justify;">Problema: se devo eseguire più task sulla stessa immagine</div><div style="text-align: justify;"><ol><li>legando la fase di preelaborazione probabilmente aumenterà il tempo complessivo di esecuzione del task (elaboro l'immagine tante volte).</li><li>Se non esistono più buffer d'immagine, i filtri verranno applicati in cascata sull'immagine iniziale distruggendo il contenuto d'informazioni al quale sono interessato.</li></ol><div>Ok non costa tantissimo ma, dato il nome del produttore, mi sarei aspettato molto ma molto di più.</div></div>
