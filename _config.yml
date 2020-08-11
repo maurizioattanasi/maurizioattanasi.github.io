@@ -2,7 +2,7 @@ title:        Maurizio Attanasi
 email:        maurizio.attanasi@gmail.com
 description:  The difficult done immediately, the impossible by appointment only
 author:       Maurizio Attanasi
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://maurizioattanasi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social Profiles
