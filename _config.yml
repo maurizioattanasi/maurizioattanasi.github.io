@@ -3,7 +3,7 @@ email:        maurizio.attanasi@gmail.com
 description:  The difficult done immediately, the impossible by appointment only
 author:       Maurizio Attanasi
 baseurl: "/" # the subpath of your site, e.g. /blog
-# url: "https://maurizioattanasi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://maurizioattanasi.it" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social Profiles
 github_username:        maurizioattanasi
@@ -11,7 +11,7 @@ linkedin_username:      maurizioattanasi
 stackoverflow_username: 6952943/maurizio-attanasi
 twitter_username:       mau970
 
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-97947753-6 # out your google-analytics code
 
 # Build settings
 # theme: jekyll-theme-clean-blog
