@@ -13,7 +13,7 @@ This blog was born and is still my preferred note-keeping tool rather than a sel
 
 I was the Chief Architect at [Memento S.r.l](http://www.memento-productions.net/). for almost two years where I was responsible for the integration of a custom Virtual Reality System with a military simulation and training software [VBS3](https://bisimulations.com/products/vbs3).
 
-Before Memento, I worked as a Software engineer and Machine Vision Specialist at [Masmec S.p.A.](https://www.masmec.com/), a leading company in the automotive field, for almost 9 years, coming from a 6-year experience as an Industrial Automation Researcher at the [Italian National Research Council](https://www.stiima.cnr.it/it/).
+Before Memento, I worked as a Software engineer and Machine Vision Specialist at [Masmec S.p.A.](https://www.masmec.com/), a leading company in the automotive field, for almost 9 years, coming from a 6-year experience as an Industrial Automation Researcher at the Italian National Research Council [C.N.R.](https://www.stiima.cnr.it/it/).
 
 ## Bio
 
