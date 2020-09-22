@@ -37,3 +37,10 @@ form: true
     <!-- <div><input type="submit" value="Submit" class="btn btn-primary"></div> -->
   </div>
 </form>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$('#form1').on('submit', (e) => {
+alert('Hello, World');
+});
+</script>
