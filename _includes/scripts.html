@@ -45,8 +45,8 @@
             'Accept': 'application/json',
             'Content-Type': 'application/json'
           },
-          // url: "http://localhost:5000/Message/Submit/{{ site.email }}",
-          url: "https://atechcontactformserver.azurewebsites.net/Message/Submit/{{ site.email }}",
+          // url: "http://localhost:5000/Message/Submit/{{ site.form_id }}",
+          url: "https://atechcontactformserver.azurewebsites.net/Message/Submit/{{ site.form_id }}",
           type: "POST",
           data: JSON.stringify(data),
           'dataType': 'json',
