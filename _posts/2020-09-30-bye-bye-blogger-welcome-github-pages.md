@@ -8,7 +8,7 @@ tags:
 author: Maurizio Attanasi
 ---
 
-![GitHub Pages](./img/github_pages_572846.jpg)
+![GitHub Pages](../images/github_pages_572846.jpg)
 
 After more than ten years, the time has come to move from Google's [Blogger](https://www.blogger.com) platform to a static website on [GitHub Pages](https://pages.github.com) using [Jekyll](https://jekyllrb.com).
 The main reason behind this choice is my habit of using [Markdown](https://en.wikipedia.org/wiki/Markdown) also to write all of my blog posts and then using an external tool to produce the HTML needed by Blogger. With Jekyll, this intermediate step is no longer needed so I can write my notes directly in Markdown, and Jekyll's builder can produce the post flawlessly.
@@ -25,4 +25,4 @@ Enjoy
 <br/>
 
 
-![Stay Safe Wear a Mask](./img/keep-calm-wear-mask-red-small.jpg)
+![Stay Safe Wear a Mask](../images/keep-calm-wear-mask-red-small.jpg)
