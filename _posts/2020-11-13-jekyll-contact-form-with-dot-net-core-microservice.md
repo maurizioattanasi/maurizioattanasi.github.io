@@ -9,6 +9,8 @@ tags:
 -  microservices
 -  Domain Driven Design
 -  CQRS
+-  Continuous Integration/Continuous Deployment
+-  GitHub Actions
 author: Maurizio Attanasi
 ---
 
