@@ -16,7 +16,7 @@ tags:
 author: Maurizio Attanasi
 ---
 
-One of the main features of a comprehensive application is diagnostic logging. Logging is the primary tool that allows us to closely observe the health of the application itself. .NET Core applications come with built-in logging, and there are many third-party packages available that enable amazing features in a very simple way. One such tool is [Serilog](https://serilog.net) which adds *structured event logging* functionality to search across multiple events more easily. In the previous note [Jekyll Contact Form with a .NET Core Microservice](./2020-11-13-jekyll-contact-form-with-dot-net-core-microservice.md) we introduced a very simple microservice [ATech.ContactFormServer](https://github.com/maurizioattanasi/ATech.ContactFormServer) (too simple to be called a proper microservice, I know :sweat_smile: ), already making use of Serilog. Having a look at the application's configuration file we will notice that Microsoft's Logging configuration section:
+One of the main features of a comprehensive application is diagnostic logging. Logging is the primary tool that allows us to closely observe the health of the application itself. .NET Core applications come with built-in logging, and there are many third-party packages available that enable amazing features in a very simple way. One such tool is [Serilog](https://serilog.net), which adds *structured event logging* functionality to search across multiple events more easily. In the previous note, [Jekyll Contact Form with a .NET Core Microservice](./2020-11-13-jekyll-contact-form-with-dot-net-core-microservice.md), we introduced a very simple microservice [ATech.ContactFormServer](https://github.com/maurizioattanasi/ATech.ContactFormServer) (too simple to be called a proper microservice, I know :sweat_smile: ), that already uses Serilog. Having a look at the application's configuration file, we will notice that Microsoft's Logging configuration section:
 
 ```json
   "Logging": {
@@ -63,7 +63,7 @@ has been replaced by a Serilog's one:
   }
 ```
 
-Tons of articles and tutorials can explain how to set up and use Serilog, and the focus of this note is not about Serilog, but exploring some possible scenarios for **centralized structured logging**. The example provided is perfect for a single (or very few) applications running on a *On-Premise* machine.
+Tons of articles and tutorials can explain how to set up and use Serilog, and the focus of this note is not about it, but exploring some possible scenarios for **centralized structured logging**. The example provided is perfect for a single, or very few applications running on a *On-Premise* machine.
 
 It provides a **Console Logging**
 
@@ -110,7 +110,7 @@ First of all we have to login our Azure account.
 ~ az login
 ```
 
-Following the instructions in the article [Install the Elastic Stack on an Azure VM](https://docs.microsoft.com/it-it/azure/virtual-machines/linux/tutorial-elasticsearch) I have put down a simple bash script that will do the virtual machine deployment job:
+Following the instructions in the article [Install the Elastic Stack on an Azure VM](https://docs.microsoft.com/it-it/azure/virtual-machines/linux/tutorial-elasticsearch) I have put down a simple bash script that will carry out the virtual machine deployment job:
 
 ```bash
 #!/bin/bash
@@ -215,7 +215,7 @@ sudo apt install default-jre && sudo apt install logstash
 
 #### Install Kibana
 
-The last letter and last service to install is **Kibana** the graphical interface to visualize and search the data stored in Elasticsearch.
+The last letter and last service to install is **Kibana**, the graphical interface to visualize and search the data stored in Elasticsearch.
 
 ```sh
 sudo apt install kibana
@@ -233,7 +233,7 @@ Start the service with the command
 sudo systemctl start kibana.service
 ```
 
-If everything is fine and the server is up and running, we will navigate to the address [http://public-server.ip:5601/]() on the browser of our choice and will see:
+If everything is fine and the server is working, we will navigate to the address [http://public-server.ip:5601/]() on the browser of our choice and will see:
 
 <p align="center">
   <img src="/assets/images/kibana-loader.png" alt="loader" />
@@ -277,7 +277,7 @@ or, configuring it in the application configuration file:
       ...
 ````
 
-Done! Our centralized ELK logging server is up and running and it's collecting our logs.
+Done! Our centralized ELK logging server is operating and it's collecting our logs.
 
 <p align="center">
   <img src="/assets/images/kibana-index-log.png" alt="ELK Running" />
