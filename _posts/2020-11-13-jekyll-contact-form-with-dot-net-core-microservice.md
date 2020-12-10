@@ -223,7 +223,7 @@ The entire project is available on [GitHub](https://github.com/maurizioattanasi/
 Enjoy
 
 ---
-<br/>
 
-
-![Stay Safe Wear a Mask](/assets/images/keep-calm-wear-mask-red-small.jpg)
+<p align="center">
+  <img src="/assets/images/keep-calm-wear-mask-red-small.jpg" alt="Stay Safe Wear a Mask" />
+</p>
