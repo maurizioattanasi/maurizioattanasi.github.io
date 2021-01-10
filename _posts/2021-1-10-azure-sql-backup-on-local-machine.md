@@ -13,6 +13,15 @@ tags:
 author: Maurizio Attanasi
 ---
 
+<div>
+  <div style="float: left; margin-left: 12em;">
+    <img src="/assets/images/azure-sql-database.png" alt="azure-sql-database">
+  </div>
+  <div style="float: left">
+    <img src="/assets/images/azure-storage.png" alt="azure-storage">
+  </div>
+  <div style="clear: both"/>
+</div>
 Having databases on a cloud provider like [Microsoft Azure](https://portal.azure.com) virtually protects us from sudden data loss due to hardware failure, virus or malware attack, or whatever, because instance mirroring is generally provided even in the cheapest plans.
 However, there may be technical or legal reasons why it is preferable to have a copy of the backups also on our local file system. A typical example is having a development server with data always aligned with the instance in production.
 
