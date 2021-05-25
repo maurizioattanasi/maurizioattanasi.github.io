@@ -27,7 +27,7 @@ However, there may be technical or legal reasons why it is preferable to have a 
 
 In this note, I will illustrate a possible approach to the problem in the case of a SQL Server database hosted on Azure.
 
-To achieve our goal we will make use of the [Azure Command-Line Interface](https://docs.microsoft.com/it-it/cli/azure/) (a.k.a. azure CLI) a cross-platform set of commands used to create and manage Azure resources, but the same results can be achieved also from the Microsoft Azure Portal Dashboard [https://portal.azure.com](https://portal.azure.com).
+To achieve our goal we will make use of the [Azure Command-Line Interface](https://docs.microsoft.com/it-it/cli/azure/) (a.k.a. azure CLI), a cross-platform set of commands used to create and manage Azure resources, but the same results can be achieved also from the Microsoft Azure Portal Dashboard [https://portal.azure.com](https://portal.azure.com).
 
 First of all, from the terminal of our choice, we need to authenticate with the following command
 
