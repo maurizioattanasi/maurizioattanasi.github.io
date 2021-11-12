@@ -42,7 +42,7 @@ The EF Core version of this pattern is used in [ATech.ContactFormServer](https:/
 ## Dapper
 
 Remaining in the field of relational databases, [Dapper](https://dapperlib.github.io/Dapper/) is one of the undisputed protagonists in the dotnet community. It's lightweight, it's much faster than EF Core (at least in reading operations), but in my opinion, using it as it comes has an unacceptable cost. Writing SQL statements directly into code even for simple operations will significantly slow down the development phase.
-This is my attempt to implement the repository paatern and add some layers of abstraction to this remarkable tool.
+This is my attempt to implement the repository pattern and add some layers of abstraction to this remarkable tool.
 
 Mimicking EF Core, I assumed that each entity class has a corresponding table with the same name in the database and, for simplicity (perhaps oversimplified), that each table has a primary key column named Id.
 
