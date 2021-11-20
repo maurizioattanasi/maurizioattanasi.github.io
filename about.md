@@ -11,7 +11,7 @@ This blog was born and is still my favorite note-keeping tool rather than a self
 
 ## Background
 
-I was a software engineer/coding architect at Borè S.r.l., a small but fast-growing self-publishing company based in Lecce, one of the most beautiful towns in the south of Italy, owner of the self-publishing platform [YouCanPrint](https://www.youcanprint.it/). During that period I supervised the cloud migration of some of the core funcionalities of the on-premise back-end software, designing and developing some microservices currently running [Azure](https://azure.microsoft.com/).
+I was a software engineer and coding architect at Borè S.r.l., a small but fast-growing self-publishing company based in Lecce, one of the most beautiful towns in the south of Italy, owner of the self-publishing platform [YouCanPrint](https://www.youcanprint.it/). During that period I supervised the cloud migration of some of the core funcionalities of the on-premise back-end software, designing and developing some microservices currently running [Azure](https://azure.microsoft.com/).
 
 Before Borè S.r.l. was the Chief Architect at [Memento S.r.l](http://www.memento-productions.net/). for almost two years where I was responsible for the integration of a custom Virtual Reality System with a military simulation and training software [VBS3](https://bisimulations.com/products/vbs3).
 
