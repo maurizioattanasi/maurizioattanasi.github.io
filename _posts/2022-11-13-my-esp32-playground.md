@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "My ESP32 Playground"
@@ -157,4 +156,4 @@ in my case and, finally, open a serial connection and check the result:
  <img src='/assets/images/2022-11-13-my-esp32-playground/hello-world.jpg' alt='Hello World' style="max-width:100%">
 </p>
 
-That's it.
+That's it. Enjoy :up:
