@@ -43,7 +43,7 @@ My first device programming experiments will be with the latter of the two, IDF,
 
 ### IDF IoT Development Framework
 
-Following the guidelines available in the [official](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html#installation-step-by-step) documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html#installation-step-by-step), it's easy enough to set up a ready-to-use development framework for any major operating system type.
+Following the guidelines available in the [official documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html#installation-step-by-step), it's easy enough to set up a ready-to-use development framework for any major operating system type.
 
 After the setup process, something like that should appear on the file system.
 
@@ -53,7 +53,7 @@ After the setup process, something like that should appear on the file system.
 
 ### Code editor
 
-Now that the environment is ready, all we need is a text editor to write our code. There are many choices [Notepadd++](https://notepad-plus-plus.org/) on Windows, [Sublime Text](https://www.sublimetext.com/) on macOS, [Vim](https://www.vim.org/) on Unix.
+Now that the environment is ready, all we need is a text editor to write our code. There are many choices [Notepad++](https://notepad-plus-plus.org/) on Windows, [Sublime Text](https://www.sublimetext.com/) on macOS, [Vim](https://www.vim.org/) on Unix.
 My choice is [Visual Studio Code](https://code.visualstudio.com/) on every platform.
 
 ### Terminal
