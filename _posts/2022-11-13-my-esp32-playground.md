@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title:  "My ESP32 Playground"
@@ -15,7 +16,7 @@ After a long period of inactivity, I decided to pull two microcontrollers from t
 The first (and the oldest one) is an ESP-WROOM-32 development board.
 
 <p align='center'>
-  <img src='https://github.com/maurizioattanasi/esp32-playground/blob/master/img/my-esp32.png' alt='My ESP32s' style="max-width:100%">
+  <img src='/assets/images/2022-11-13-my-esp32-playground/esp-tree.png' alt='My ESP32s' style="max-width:100%">
 </p>
 
 <hr>
@@ -36,7 +37,7 @@ My first device programming experiments will be with the latter of the two, IDF,
 <br>
 
 <p align='center'>
- <img src='https://github.com/maurizioattanasi/esp32-playground/blob/master/img/logo-freertos.jpeg' alt='FreeRTOS' style="max-width:100%">
+ <img src='/assets/images/2022-11-13-my-esp32-playground/logo-freertos.jpeg' alt='FreeRTOS' style="max-width:100%">
 </p>
 
 ## Environment setup
@@ -48,7 +49,7 @@ Following the guidelines available in the [official](https://docs.espressif.com/
 After the setup process, something like that should appear on the file system.
 
 <p align='center'>
- <img src='https://github.com/maurizioattanasi/esp32-playground/blob/master/img/esp-tree.png' alt='folder-structure' style="max-width:100%">
+ <img src='/assets/images/2022-11-13-my-esp32-playground/esp-tree.png' alt='folder-structure' style="max-width:100%">
 </p>
 
 ### Code editor
@@ -153,7 +154,7 @@ in my case and, finally, open a serial connection and check the result:
 ```
 
 <p align='center'>
- <img src='https://github.com/maurizioattanasi/esp32-playground/blob/master/img/hello-world.jpg' alt='Hello World' style="max-width:100%">
+ <img src='/assets/images/2022-11-13-my-esp32-playground/hello-world.jpg' alt='Hello World' style="max-width:100%">
 </p>
 
 That's it.
