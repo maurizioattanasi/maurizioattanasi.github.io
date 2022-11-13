@@ -15,7 +15,7 @@ After a long period of inactivity, I decided to pull two microcontrollers from t
 The first (and the oldest one) is an ESP-WROOM-32 development board.
 
 <p align='center'>
-  <img src='/assets/images/2022-11-13-my-esp32-playground/esp-tree.png' alt='My ESP32s' style="max-width:100%">
+  <img src='/assets/images/2022-11-13-my-esp32-playground/my-esp32.png' alt='My ESP32s' style="max-width:100%">
 </p>
 
 <hr>
