@@ -56,7 +56,7 @@ and it's implementations:
 
 ## Code and NuGet packages
 
-You can find the code on my GitHub profile by clicking on the following link: [ATech.Repository](https://github.com/maurizioattanasi/ATech.Repository). The repository also includes a continuous integration and continuous deployment workflow, which is implemented using [GitHub Actions](https://github.com/features/actions). As a result of this workflow, three NuGet packages are created and published, which are available at https://www.nuget.org/packages?q=ATech.Repository(https://www.nuget.org/packages?q=ATech.Repository).
+You can find the code on my GitHub profile by clicking on the following link: [ATech.Repository](https://github.com/maurizioattanasi/ATech.Repository). The repository also includes a continuous integration and continuous deployment workflow, which is implemented using [GitHub Actions](https://github.com/features/actions). As a result of this workflow, three NuGet packages are created and published, which are available at [https://www.nuget.org/packages?q=ATech.Repository](https://www.nuget.org/packages?q=ATech.Repository).
 
 <br/>
 
