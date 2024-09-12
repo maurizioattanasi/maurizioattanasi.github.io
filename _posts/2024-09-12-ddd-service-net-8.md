@@ -30,7 +30,7 @@ I will begin by describing the anatomy of the solution of a typical service.
 
 The image above is one of the possible representations of onion architecture, one of the concepts defined by clean architecture, a software design pattern that offers several advantages, particularly in terms of maintainability, testability, and flexibility.
 
-Each of the layers represented in the project corresponds to a design of the solution.
+Each of the layers represented in the image corresponds to a priject of the solution.
 
 <p align='center'>
     <img src='/assets/images/ddd-service-net-8/solution.png' alt='solution-layout' style="max-width:70%">
