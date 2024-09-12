@@ -6,4 +6,3 @@ Gemfile.lock
 .jekyll-cache
 
 assets/.DS_Store
-.gitignore
