@@ -46,4 +46,26 @@ Each of the layers represented in the image corresponds to a project of the solu
 
 <br/>
 
+The three layers are injected as services in **Program.cs**.
+
+```cs
+var builder = WebApplication.CreateBuilder(args);
+
+...
+
+{
+    builder
+        .Services
+        .AddPresentation()
+        .AddApplication(configuration)
+        .AddInfrastructure(configuration);
+}
+```
+
+1. **Presentation Layer**: The AddPresentation() method registers services related to the presentation layer, which typically includes controllers, views, and other UI components.
+2. **Application Layer**: The AddApplication(configuration) method registers services for the application layer, which contains the business logic and application-specific rules.
+3. **Infrastructure Layer**: The AddInfrastructure(configuration) method registers services for the infrastructure layer, which handles data access, external services, and other infrastructure-related concerns.
+   
+By organizing the code in this manner, the application adheres to the principles of Onion Architecture, promoting a clear separation of concerns and dependency inversion. This ensures that each layer interacts with the others through well-defined interfaces, enhancing maintainability and testability.
+
 Enjoy, :wink:
