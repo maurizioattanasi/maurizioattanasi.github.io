@@ -9,6 +9,7 @@ tags:
 - macos
 - visual-studio-code
 - dev-cotainers
+- rust
 author: Maurizio Attanasi
 ---
 
@@ -27,7 +28,68 @@ How does this scenario change with dev containers? The example is in [atech-rust
     <img src='/assets/images/dev-containers/vs-code-dev-container.png' alt='dev-container' style="max-width:50%">
 </p>
 
-**DOCKERFILE**
+The two files in the .devcontainer folder do the magic
+
+### 1. devcontainer.json
+
+This json file is used to configure the development environment.
+
+```json
+{
+	"name": "Rust",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "."
+	},
+	"remoteUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer",
+				"mhutchie.git-graph",
+				"TabNine.tabnine-vscode",
+				"humao.rest-client",
+				"equinusocio.vsc-material-theme-icons"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "bash",
+						"icon": "terminal-bash"
+					},
+					"zsh": {
+						"path": "zsh"
+					},
+					"fish": {
+						"path": "fish"
+					},
+					"tmux": {
+						"path": "tmux",
+						"icon": "terminal-tmux"
+					},
+					"pwsh": {
+						"path": "pwsh",
+						"icon": "terminal-powershell"
+					}
+				}
+			}
+		}
+	}
+}
+```
+
+Let's explain the main sections which appear in the example above:
+
+- name: contains a friendly name of the dev container;
+- build: defines how the development container is built:
+  - dockerfile: specifies the path to the Dockerfile that will be used to build the container;
+  - context: defines the build context, usually the folder containing the Dockerfile;
+- remoteUser: specifies the user that will be used when connecting to the container;
+- customizations: This section allows you to tailor the development environment to the specific needs of the domain.
+  In the example above, the vscode editor is customised with a number of extensions, and the integrated terminal is set up to use zsh as the default shell.
+
+### 2. DOCKERFILE
 
 ```dockerfile
 # Use the latest stable version of Debian
@@ -85,53 +147,4 @@ WORKDIR /workspace
 
 # Specify the command to run the application
 CMD ["zsh"]
-```
-
-<hr>
-
-**devcontainer.json**
-
-```json
-{
-	"name": "Rust",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": "."
-	},
-	"remoteUser": "vscode",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"rust-lang.rust-analyzer",
-				"mhutchie.git-graph",
-				"TabNine.tabnine-vscode",
-				"humao.rest-client",
-				"equinusocio.vsc-material-theme-icons"
-			],
-			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh",
-				"terminal.integrated.profiles.linux": {
-					"bash": {
-						"path": "bash",
-						"icon": "terminal-bash"
-					},
-					"zsh": {
-						"path": "zsh"
-					},
-					"fish": {
-						"path": "fish"
-					},
-					"tmux": {
-						"path": "tmux",
-						"icon": "terminal-tmux"
-					},
-					"pwsh": {
-						"path": "pwsh",
-						"icon": "terminal-powershell"
-					}
-				}
-			}
-		}
-	}
-}
 ```
