@@ -25,7 +25,7 @@ Of course, this approach required me to connect to the virtual machine remotely,
 How does this scenario change with dev containers? The example is in [atech-rusty-odyssey](https://github.com/maurizioattanasi/atech-rusty-odyssey), my new project that will host exercises and experiments accompanying this journey.
 
 <p align='center'>
-    <img src='/assets/images/dev-containers/vs-code-dev-container.png' alt='dev-container' style="max-width:30%">
+    <img src='/assets/images/dev-containers/vs-code-dev-container.png' alt='dev-container' size='30%'>
 </p>
 
 The two files in the .devcontainer folder do the magic
