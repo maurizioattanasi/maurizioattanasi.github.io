@@ -91,7 +91,7 @@ Let's explain the main sections which appear in the example above:
 
 ### 2. DOCKERFILE
 
-The second part of the job is done by the DOCKERFILE. While it's not a necessary requirement to customize this file, it allows to bring in some features that are for shure a nice bonus.
+The DOCKERFILE handles the second part of the job. Although customizing this file is not mandatory, it provides the opportunity to incorporate features like selecting your preferred Linux distribution, customizing the shell, and precisely choosing the tools required to complete the job. This is certainly a valuable bonus.
 
 ```dockerfile
 # Use the latest stable version of Debian
