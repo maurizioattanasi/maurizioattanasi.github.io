@@ -91,6 +91,8 @@ Let's explain the main sections which appear in the example above:
 
 ### 2. DOCKERFILE
 
+The second part of the job is done by the DOCKERFILE. While it's not a necessary requirement to customize this file, it allows to bring in some features that are for shure a nice bonus.
+
 ```dockerfile
 # Use the latest stable version of Debian
 FROM debian:stable
@@ -148,3 +150,4 @@ WORKDIR /workspace
 # Specify the command to run the application
 CMD ["zsh"]
 ```
+
