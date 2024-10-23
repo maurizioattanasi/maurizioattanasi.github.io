@@ -161,3 +161,4 @@ CMD ["zsh"]
 
 In this note we have seen how it is possible to create a whole dedicated development environment, in just a few steps and with the only requirement that you have a container management tool, such as docker or podman available on your computer, without the need to install anything on the host, which, in this way, will always remain clean and efficient.
 
+Enjoy, :wink:
