@@ -30,7 +30,7 @@ How does this scenario change with dev containers? The example is in [atech-rust
 
 The two files in the .devcontainer folder do the magic
 
-### 1. devcontainer.json
+## 1. devcontainer.json
 
 This json file is used to configure the development environment.
 
@@ -89,7 +89,7 @@ Let's explain the main sections which appear in the example above:
 - customizations: This section allows you to tailor the development environment to the specific needs of the domain.
   In the example above, the vscode editor is customised with a number of extensions, and the integrated terminal is set up to use zsh as the default shell.
 
-### 2. DOCKERFILE
+## 2. DOCKERFILE
 
 The DOCKERFILE handles the second part of the job. Although customizing this file is not mandatory, it provides the opportunity to incorporate features like selecting your preferred Linux distribution, customizing the shell, and precisely choosing the tools required to complete the job. This is certainly a valuable bonus.
 
@@ -150,4 +150,14 @@ WORKDIR /workspace
 # Specify the command to run the application
 CMD ["zsh"]
 ```
+
+ The comments in the file should be enough to clarify what is happening, but let's summarize in a few points.
+
+ - The first block takes care of creating the vscode user set in the previous file;
+ - Then we go on to install zsh and some modules that will customize its theme and behavior
+ - Finally, we move on to the installation of the rust toolchain via [rustup](https://rustup.rs/)
+
+## Conclusions
+
+In this note we have seen how it is possible to create a whole dedicated development environment, in just a few steps and with the only requirement that you have a container management tool, such as docker or podman available on your computer, without the need to install anything on the host, which, in this way, will always remain clean and efficient.
 
