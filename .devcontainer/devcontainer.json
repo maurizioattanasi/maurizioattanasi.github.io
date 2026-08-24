@@ -1,0 +1,51 @@
+{
+    "name": "Jekyll",
+
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+
+    "remoteUser": "vscode",
+
+    "forwardPorts": [
+        4000
+    ],
+
+    "portsAttributes": {
+        "4000": {
+            "label": "Jekyll",
+            "onAutoForward": "openBrowser"
+        }
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Shopify.ruby-lsp",
+                "Shopify.theme-check-vscode",
+                "yzhang.markdown-all-in-one",
+                "DavidAnson.vscode-markdownlint",
+                "redhat.vscode-yaml",
+                "esbenp.prettier-vscode"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "bash",
+                        "icon": "terminal-bash"
+                    },
+                    "zsh": {
+                        "path": "zsh"
+                    }
+                },
+
+                "markdownlint.config": {
+                    "MD013": false
+                }
+            }
+        }
+    }
+}

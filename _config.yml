@@ -1,28 +1,27 @@
-title:        Maurizio Attanasi
-email:        maurizio.attanasi@gmail.com
-description:  The difficult done immediately, the impossible by appointment only
-author:       Maurizio Attanasi
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://maurizioattanasi.it" # the base hostname & protocol for your site, e.g. http://example.com
-form_id:      ECF1C7AC-169C-4AC4-A298-1E5911062790
+title: "Maurizio Attanasi"
+email: "maurizio.attanasi@gmail.com"
+description: "The difficult done immediately, the impossible by appointment only"
+author: "Maurizio Attanasi"
+baseurl: "/"
+url: "http://maurizioattanasi.it"
+form_id: "ECF1C7AC-169C-4AC4-A298-1E5911062790"
 
 # Social Profiles
-github_username:        maurizioattanasi
-linkedin_username:      maurizioattanasi
-stackoverflow_username: 6952943/maurizio-attanasi
-twitter_username:       mau970
+github_username: maurizioattanasi
+linkedin_username: maurizioattanasi
+stackoverflow_username: "6952943/maurizio-attanasi"
+twitter_username: mau970
 
-google_analytics:   UA-97947753-6 # out your google-analytics code
+google_analytics: "UA-97947753-6"
 
 # Build settings
-# theme: jekyll-theme-clean-blog
-remote_theme: jekyll-theme-clean-blog
+remote_theme: startbootstrap/jekyll-theme-clean-blog
 highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-paginate:           5
-paginate_path:      "/posts/page:num/"
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -31,23 +30,4 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  quiet_deps: true
