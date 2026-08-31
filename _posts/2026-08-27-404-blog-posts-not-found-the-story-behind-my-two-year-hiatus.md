@@ -9,14 +9,21 @@ author: Maurizio Attanasi
 
 # 404-blog-posts-not-found-the-story-behind-my-two-year-hiatus
 
-Considerando la natura iniziale di questo spazio, nato come più che altro come un `block notes` che, contrariamente a quanto mi succedeva costantemente con gli appunti cartacei, non posso perdere, questo è un messaggio principalmente rivolto a me stesso e agli altri lettori del blog che da due anni non vedono alcuna attività di nessun genere. Per rispondere ad ipotetiche domande del tipo "Che fine ha fatto Maurizio?", "Ha finalmente cambiato lavoro?", posso dire che sono sempre stato qui, che continuo a fare il lavoro che più mi appassiona.
+Considerando la natura originaria di questo spazio, nato più come un blocco note digitale che, a differenza degli appunti cartacei che puntualmente finivo per perdere, può accompagnarmi nel tempo, questo è soprattutto un messaggio rivolto a me stesso e a quei lettori che, da ormai due anni, non vedono alcuna nuova attività sul blog.
 
-Due anni nel settore della tecnologia sono un'eternità e di vere e proprie `rivoluzioni` di cui parlare ce ne sono state tante, basti pensare al letterale boom avuto dagli LLM in questo arco temporale.
+Per rispondere a possibili domande come "Che fine ha fatto Maurizio?" oppure "Ha finalmente cambiato lavoro?", posso dire che sono sempre stato qui e che continuo a fare il lavoro che più mi appassiona.
 
-Nel frattempo però, ci si è messa di mezzo la vita. 
-Il mio amore per tutto ciò che è legato al mondo della tecnologia è sempre stato lì, ho sempre cercato di portare avanti i miei impegni professionali al meglio delle mie capacità cercando di rimanere al passo con lo stato dell'arte. In parole povere, la ragione non è stata mancanza di idee, né di interesse per la tecnologia.
+Due anni, nel settore della tecnologia, rappresentano un'eternità. In questo arco di tempo si sono susseguite vere e proprie rivoluzioni, basti pensare al boom degli LLM e all'impatto che hanno avuto sul nostro modo di lavorare, apprendere e creare.
 
-Purtroppo è successo qualcosa che ha cambiato le mie priorità. Papà si è ammalato, ed è iniziato un biennio in cui la vita quotidiana è stata stravolta, le priorità sono state rimesse in discussione, il concetto di tempo ha assunto un significato diverso, e la scrittura, semplicemente, è diventata irrilevante.
+Nel frattempo, però, si è messa di mezzo la vita.
+
+La passione per la tecnologia non è mai venuta meno. Ho continuato a svolgere il mio lavoro con entusiasmo, cercando di dare il massimo e di rimanere costantemente aggiornato sullo stato dell'arte. In altre parole, la mia assenza non è stata causata dalla mancanza di idee né da un calo di interesse verso il mondo tecnologico.
+
+Purtroppo è successo qualcosa che ha cambiato radicalmente le mie priorità.
+
+Papà si è ammalato e da quel momento è iniziato un periodo lungo due anni in cui la quotidianità è stata completamente stravolta. Le priorità sono state rimesse in discussione, il tempo ha assunto un significato diverso e molte cose che prima ritenevo importanti hanno perso improvvisamente peso.
+
+La scrittura, semplicemente, è passata in secondo piano.
 
 > “And then I lost my father.”
 
