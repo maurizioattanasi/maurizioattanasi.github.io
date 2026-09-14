@@ -9,7 +9,7 @@ author: Maurizio Attanasi
 
 # 404-blog-posts-not-found-the-story-behind-my-two-year-hiatus
 
-Considerando la natura originaria di questo spazio, nato più come un blocco note digitale che, a differenza degli appunti cartacei che puntualmente finivo per perdere, può accompagnarmi nel tempo, questo è soprattutto un messaggio rivolto a me stesso e a quei lettori che, da ormai due anni, non vedono alcuna nuova attività sul blog.
+Considerando la natura originaria di questo spazio, nato più come un blocco note digitale che, a differenza degli appunti cartacei, che puntualmente finivo per perdere, può accompagnarmi nel tempo, questo è soprattutto un messaggio rivolto a me stesso e a quei lettori che, da ormai due anni, non vedono alcuna nuova attività sul blog.
 
 Per rispondere a possibili domande come "Che fine ha fatto Maurizio?" oppure "Ha finalmente cambiato lavoro?", posso dire che sono sempre stato qui e che continuo a fare il lavoro che più mi appassiona.
 
@@ -25,12 +25,6 @@ Papà si è ammalato e da quel momento è iniziato un periodo lungo due anni in 
 
 La scrittura, semplicemente, è passata in secondo piano.
 
-> “And then I lost my father.”
+Poi, alla fine, l'inevitablile, ad Aprile papà ha smesso di lottare e si è spento. 
 
-> Dopo la morte non è magicamente tornato tutto normale.
-
-> “Why did I feel the need to come back?”
-
-> The blog is not dead. Apparently, neither am I.
-
-> “And now, let’s talk about technology again.”
+Perderlo é stato unn colpo durissimo dal quale sto ancora cercando di riprendermi.
