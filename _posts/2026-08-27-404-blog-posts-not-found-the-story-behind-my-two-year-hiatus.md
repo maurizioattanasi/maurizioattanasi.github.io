@@ -1,36 +1,28 @@
----
-layout: post
-title:  "404: Blog Posts Not Found. The Story Behind My Two-Year Hiatus"
-tags:
-- writing
+Given the original purpose of this space – which began more as a digital notepad that, unlike my paper notes which I invariably ended up losing, can stay with me over time – this is, above all, a message to myself and to those readers who, for the past two years now, have seen no new activity on the blog.
 
-author: Maurizio Attanasi
----
+To answer any questions such as ‘What’s become of Maurizio?’ or ‘Has he finally changed jobs?’, I can say that I’ve always been here and that I’m still doing the work I’m most passionate about.
 
-# 404-blog-posts-not-found-the-story-behind-my-two-year-hiatus
+Two years, in the tech sector, is an eternity. During this time, there have been nothing short of revolutions. Just think of the boom in LLMs and the impact they’ve had on the way we work, learn and create.
 
-Considerando la natura originaria di questo spazio, nato più come un blocco note digitale che, a differenza degli appunti cartacei, che puntualmente finivo per perdere, può accompagnarmi nel tempo, questo è soprattutto un messaggio rivolto a me stesso e a quei lettori che, da ormai due anni, non vedono alcuna nuova attività sul blog.
+In the meantime, however, life got in the way.
 
-Per rispondere a possibili domande come "Che fine ha fatto Maurizio?" oppure "Ha finalmente cambiato lavoro?", posso dire che sono sempre stato qui e che continuo a fare il lavoro che più mi appassiona.
+My passion for technology has never waned. I’ve continued to do my job with enthusiasm, striving to give my all and to stay constantly up to date with the latest developments. In other words, my absence was not due to a lack of ideas or a waning interest in the world of technology.
 
-Due anni, nel settore della tecnologia, rappresentano un'eternità. In questo arco di tempo si sono susseguite vere e proprie rivoluzioni, basti pensare al boom degli LLM e all'impatto che hanno avuto sul nostro modo di lavorare, apprendere e creare.
+Unfortunately, something happened that radically changed my priorities.
 
-Nel frattempo, però, si è messa di mezzo la vita.
+My dad fell ill, and from that moment on began a two-year period during which my daily life was completely turned upside down. My priorities have been turned on their head; time has taken on a different meaning, and many things I once considered important have suddenly lost their significance.
 
-La passione per la tecnologia non è mai venuta meno. Ho continuato a svolgere il mio lavoro con entusiasmo, cercando di dare il massimo e di rimanere costantemente aggiornato sullo stato dell'arte. In altre parole, la mia assenza non è stata causata dalla mancanza di idee né da un calo di interesse verso il mondo tecnologico.
+Writing, quite simply, has taken a back seat.
 
-Purtroppo è successo qualcosa che ha cambiato radicalmente le mie priorità.
+Then, eventually, the inevitable happened. In April, Dad stopped fighting and passed away.
 
-Papà si è ammalato e da quel momento è iniziato un periodo lungo due anni in cui la quotidianità è stata completamente stravolta. Le priorità sono state rimesse in discussione, il tempo ha assunto un significato diverso e molte cose che prima ritenevo importanti hanno perso improvvisamente peso.
+Losing him was a devastating blow from which I am still trying to recover. And it isn’t easy, because every time I go to tend to his olive trees, I feel his presence. Every time I use one of his tools – his rotary tiller or his motorised cart – I am reminded of the passion he put into his work: a job a world away from mine, yet driven by the same dedication that I feel for my own profession.
 
-La scrittura, semplicemente, è passata in secondo piano.
+The time has come to return to my old ways. It’s time to rediscover the motivation to carry on studying when everyone says it’s pointless, that my profession is now obsolete, that the only alternatives are ‘menial’ jobs – the ones that AI isn’t yet capable of doing.
 
-Poi, alla fine, l'inevitablile, ad Aprile papà ha smesso di lottare e si è spento. 
+I’ll give it a go, one step at a time.
 
-Perderlo é stato un colpo durissimo dal quale sto ancora cercando di riprendermi. Cosa non facile, perché ogni volta che mio ogni volta che vado a prendermi cura dei sui ulivi, la sua anima è lì, ogni volta che utilizzo un suo attrezzo, la sua motozappa, il suo motocarro, rivedo la sua passione per un lavoro agli antipodi del mio, ma uguale alla mia passione per la mia professione.
+I’ll give it a go with the same enthusiasm I had before.
 
-È giunto il momento per tornare alle vecchie abitudini, il momento per cercare la motivazione per continuare a studiare quando tutti dicono che è superfluo, che ormai la mia figura professionale è obsoleta, che le uniche alternative sono i lavori 'umili', quelli che l'AI non è ancora in grado di svolgere.
-
-Ci proverò, un passo alla volta. Ci proverò con lo stesso entusiasmo che avevo prima. Ci sto provando con questo articolo che rompe un silenzio durato più di due anni.
-
+I’m giving it a go with this article, which breaks a silence that has lasted more than two years.
 
