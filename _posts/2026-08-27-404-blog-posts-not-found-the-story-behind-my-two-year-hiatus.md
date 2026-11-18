@@ -27,4 +27,10 @@ La scrittura, semplicemente, è passata in secondo piano.
 
 Poi, alla fine, l'inevitablile, ad Aprile papà ha smesso di lottare e si è spento. 
 
-Perderlo é stato unn colpo durissimo dal quale sto ancora cercando di riprendermi.
+Perderlo é stato un colpo durissimo dal quale sto ancora cercando di riprendermi. Cosa non facile, perché ogni volta che mio ogni volta che vado a prendermi cura dei sui ulivi, la sua anima è lì, ogni volta che utilizzo un suo attrezzo, la sua motozappa, il suo motocarro, rivedo la sua passione per un lavoro agli antipodi del mio, ma uguale alla mia passione per la mia professione.
+
+È giunto il momento per tornare alle vecchie abitudini, il momento per cercare la motivazione per continuare a studiare quando tutti dicono che è superfluo, che ormai la mia figura professionale è obsoleta, che le uniche alternative sono i lavori 'umili', quelli che l'AI non è ancora in grado di svolgere.
+
+Ci proverò, un passo alla volta. Ci proverò con lo stesso entusiasmo che avevo prima. Ci sto provando con questo articolo che rompe un silenzio durato più di due anni.
+
+
